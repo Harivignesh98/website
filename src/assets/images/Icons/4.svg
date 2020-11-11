@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-_4">
+      <rect width="80" height="80"/>
+    </clipPath>
+  </defs>
+  <g id="_4" data-name="4" clip-path="url(#clip-_4)">
+    <g id="Group_18829" data-name="Group 18829" transform="translate(-132 -767)">
+      <rect id="Rectangle_2952" data-name="Rectangle 2952" width="80" height="80" transform="translate(132 767)" fill="none"/>
+      <g id="noun_cad_978189" transform="translate(115.977 754.184)">
+        <g id="Group_7954" data-name="Group 7954" transform="translate(16.045 22.992)">
+          <g id="Group_7953" data-name="Group 7953" transform="translate(0 0)">
+            <path id="Path_41423" data-name="Path 41423" d="M52.491,32.267,28.449,44.481,52.613,57.193l23.92-12.712Z" transform="translate(-27.144 -32.267)" fill="#48c0bf"/>
+            <path id="Path_41424" data-name="Path 41424" d="M52.6,91.149,76.587,78.358V47.168L52.6,60.2Z" transform="translate(-26.144 -33.222)" fill="#48c0bf"/>
+            <path id="Path_41425" data-name="Path 41425" d="M26.043,78.114,50.289,91.091V59.9L26.043,47.168Z" transform="translate(-26.043 -33.222)" fill="#48c0bf"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,4 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
 /*-----------------------------------------------------------------------------------
 
     Template Name: Smash - Bootstrap Template
@@ -439,6 +438,7 @@ p {
       line-height: 40px; } }
 
 /*===== standard Buttons =====*/
+
 .standard-buttons ul li {
   display: inline-block;
   margin-left: 18px;
@@ -454,8 +454,8 @@ p {
     color: #0067f4;
     background-color: rgba(0, 103, 244, 0.4); }
 .standard-buttons .standard-two {
-  color: #fff;
-  background-color: #0067f4;
+  color:#48C0BF;
+  background-color: #48C0BF;
   border-color: #0067f4; }
   .standard-buttons .standard-two:hover {
     color: #0067f4;
@@ -2162,20 +2162,24 @@ p {
 /*===========================
         09.NAVBAR css 
 ===========================*/
+.navbar-area{
+  position:fixed;
+  z-index:99;
+}
 .navbar-area {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 10px 0;
+  padding: 0px 0;
   z-index: 99; }
   .navbar-area .navbar {
-    position: relative;
+    position: fixed;
     padding: 0; }
     .navbar-area .navbar .navbar-toggler .toggler-icon {
       width: 30px;
       height: 2px;
-      background-color: #fff;
+      background-color: rgb(53, 53, 53);
       margin: 5px 0;
       display: block;
       position: relative;
@@ -2350,56 +2354,27 @@ p {
       color: #121212;
       opacity: 1; }
     .navbar-area.sticky .navbar .navbar-btn li a.light {
-      border-color: #0067f4;
-      color: #0067f4; }
+      border-color: #ffffff;
+      color: #ffffff; }
     .navbar-area.sticky .navbar .navbar-btn li a.solid {
-      border-color: #0067f4;
-      background-color: #0067f4;
+      border-color: #ffffff;
+      background-color: #ffffff;
       color: #fff; }
 
 /*===========================
        10.SLIDER css 
 ===========================*/
-.carousel-item {
-  background-color: #0067f4;
+.
+{
+  background-color: #ffffff;
   position: relative; }
-  .carousel-item::before {
-    position: absolute;
-    content: '';
-    width: 33%;
-    height: 100%;
-    background: -webkit-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
-    background: -o-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
-    background: linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
-    top: 0;
-    right: 15%;
-    -webkit-transform: skewX(20deg);
-    -moz-transform: skewX(20deg);
-    -ms-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg); }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .carousel-item::before {
-        width: 40%; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .carousel-item::before {
-        width: 60%; } }
-    @media (max-width: 767px) {
-      .carousel-item::before {
-        width: 50%;
-        right: 45%; } }
-    @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .carousel-item::before {
-        right: 25%; } }
+  
+    
   .carousel-item .slider-image-box {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    z-index: 9; }
+    }
     .carousel-item .slider-image-box .slider-image {
-      max-width: 680px;
+   
       width: 100%; }
 
 .slider-content {
@@ -2412,8 +2387,8 @@ p {
       padding-top: 190px;
       padding-bottom: 150px; } }
   .slider-content .title {
-    font-size: 88px;
-    line-height: 96px;
+    font-size: 40px;
+    line-height: 50px;
     color: #fff;
     font-weight: 700; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2539,7 +2514,7 @@ p {
   .single-features .features-title-icon .features-title a {
     font-size: 36px;
     line-height: 45px;
-    color: #0f0c2e;
+    color: #121212;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -2549,8 +2524,7 @@ p {
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .single-features .features-title-icon .features-title a {
         font-size: 24px;
-        line-height: 35px; 
-      } }
+        line-height: 35px; } }
     @media (max-width: 767px) {
       .single-features .features-title-icon .features-title a {
         font-size: 24px;
@@ -2565,9 +2539,9 @@ p {
     position: relative;
     display: inline-block; }
     .single-features .features-title-icon .features-icon i {
-      font-size: 40px;
+      font-size: 88px;
       line-height: 70px;
-      color: #44dee9;
+      color: #0067f4;
       position: relative;
       z-index: 5; }
     .single-features .features-title-icon .features-icon .shape {
@@ -2577,22 +2551,13 @@ p {
   .single-features .features-content .text {
     font-size: 14px;
     line-height: 20px;
-    color: #191041;
+    color: #121212;
     margin-top: 16px; }
   .single-features .features-content .features-btn {
-    color: #37dde9;
-    font-size: 12px;
+    color: #0067f4;
+    font-size: 16px;
     font-weight: 700;
-    margin-top: 29px;
-    }
-    .bottomright {
-      position: absolute;
-      
-      right: 25px;
-
-    }
-  
-
+    margin-top: 29px; }
 
 /*===========================
       18.PORTFOLIO css 
@@ -2651,7 +2616,7 @@ p {
   .portfolio-menu ul li:hover, .portfolio-menu ul li.active {
     color: #fff; }
     .portfolio-menu ul li:hover::before, .portfolio-menu ul li.active::before {
-      opacity: 1; }
+      opacity: 0; }
 
 .single-portfolio .portfolio-image {
   position: relative;
@@ -2785,10 +2750,11 @@ p {
 /*===========================
        15.ABOUT css 
 ===========================*/
+
 .about-area {
   padding-top: 80px;
   padding-bottom: 130px;
-  position: relative; }
+  text-align: center}
   .about-area .about-title .sub-title {
     font-size: 18px;
     font-weight: 400;
@@ -3151,6 +3117,7 @@ p.form-message.success, p.form-message.error {
   background-color: #fc3832; }
 .contact-info .single-contact-info.contact-color-3 .contact-info-icon i {
   background-color: #005ad5; }
+  
 
 .contact-wrapper .contact-title {
   font-size: 32px;
@@ -3256,122 +3223,112 @@ p.form-message.success, p.form-message.error {
     background-color: #0067f4; }
 
 /*# sourceMappingURL=style.css.map */
-/* Slider */
-.slick-slider
-{
-    position: relative;
-
-    display: block;
-    box-sizing: border-box;
-
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
+.description{
+top: 1772px;
+left: 129px;
+width: 100%;
+height: 544px;
+opacity: 1;
 }
+.description .inner{
+  top: 1820px;
+ 
+  width: 100%px;
+  height: 496px;
+  padding-left:50px;
 
-.slick-list
-{
-    position: relative;
+  background: #48C0BF 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+}
+.description  .textleft{
+top: 1772px;
+left :0;
+width: 460px;
+height: 472px;
+padding:20px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 13px 0px 0px #00000008;
+border: 1px solid #C6C6C6;
+border-radius: 6px;
+opacity: 1;
+}
+.description .textright{
+  
+position :absolute;
+right:50px;
+width: 460px;
+height: 472px;
+padding:20px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 13px 0px 0px #00000008;
+border: 1px solid #C6C6C6;
+border-radius: 6px;
+opacity: 1;
+  }
 
-    display: block;
-    overflow: hidden;
 
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
 
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
 
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
+  
+/*Form*/
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
 
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  max-height:100%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
 }
 
-.slick-slide
-{
-    display: none;
-    float: left;
+/* Add styles to the form container */
+.form-container {
+  max-width: 70%;
+  max-height:100%;
+  padding: 15px;
+  background-color: rgb(218, 218, 218);
+ 
+}
 
-    height: 100%;
-    min-height: 1px;
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] ,.form-container input[type=email], .form-container input[type=number], .form-container input[type=date] , .form-container input[type=time]{
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0 0px 0;
+  border: none;
+  background: #ffffff;
 }
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
 
-    height: auto;
-
-    border: 1px solid transparent;
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus ,.form-container input[type=date]:focus {
+  background-color: #ddd;
+  outline: none;
 }
-.slick-arrow.slick-hidden {
-    display: none;
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:5px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
